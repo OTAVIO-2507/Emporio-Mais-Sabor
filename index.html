@@ -261,7 +261,7 @@
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
-                                <span class="feedback-respostas">(+ 5 repostas)</span>
+                                <span class="feedback-respostas" style="cursor:pointer">(+ 5 repostas)</span>
                             </span>
                         </p>
                         <p>
@@ -282,7 +282,7 @@
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
-                                <span class="feedback-respostas">(+2 repostas)</span>
+                                <span class="feedback-respostas" style="cursor:pointer">(+2 repostas)</span>
                             </span>
                         </p>
                         <p>
@@ -323,6 +323,34 @@
             </div>
         </div>
     </footer>
+    <!-- Modal: Visualização de Foto de Perfil -->
+    <div id="profile-modal-overlay">
+        <div class="profile-modal-box">
+            <img src="" id="profile-modal-img" class="profile-modal-img" alt="">
+            <span id="profile-modal-name" class="profile-modal-name"></span>
+            <button class="profile-modal-close" id="profile-modal-close"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+    </div>
+
+    <!-- Modal: Lista de Comentários -->
+    <div id="comments-modal-overlay">
+        <div class="comments-modal-box">
+            <div class="comments-modal-header">
+                <h3 id="comments-modal-title">Avaliações</h3>
+                <button class="comments-modal-close" id="comments-modal-close"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="comments-modal-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span style="color:#555;font-size:0.85rem;margin-left:4px;">5.0 &bull; <span id="comments-modal-count"></span></span>
+            </div>
+            <div id="comments-list"></div>
+        </div>
+    </div>
+
     <script src="src/javascript/script.js"></script>
 </body>
 </html>
