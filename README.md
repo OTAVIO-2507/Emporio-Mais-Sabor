@@ -9,8 +9,6 @@ Landing page responsiva com tema de restaurante: cardápio, depoimentos e seçõ
 
 [![Demonstração online](https://img.shields.io/badge/demonstra%C3%A7%C3%A3o-online-2EA44F?style=for-the-badge)](https://otavio-2507.github.io/Emporio-Mais-Sabor/)
 
-[![Prévia da página](docs/preview.webp)](https://otavio-2507.github.io/Emporio-Mais-Sabor/)
-
 ## Visão geral
 
 O Empório Mais Sabor apresenta a estrutura completa de uma landing page comercial para gastronomia: hero com chamada principal, vitrine de pratos, seção do chef, depoimentos de clientes e rodapé institucional. O CSS é organizado por seção (header, home, menu, depoimentos, footer), e as animações de entrada são orquestradas com ScrollReveal conforme o usuário navega pela página.
@@ -49,13 +47,11 @@ Abra o arquivo `index.html` no navegador. As dependências são carregadas via C
 ```
 Emporio-Mais-Sabor/
 ├── index.html              Página única da landing page
-├── src/
-│   ├── javascript/
-│   │   └── script.js       Interações e animações
-│   ├── style/              CSS modular (header, home, menu, footer...)
-│   └── images/             Pratos, chef e identidade visual
-└── docs/
-    └── preview.webp        Imagem de prévia do README
+└── src/
+    ├── javascript/
+    │   └── script.js       Interações e animações
+    ├── style/              CSS modular (header, home, menu, footer...)
+    └── images/             Pratos, chef e identidade visual
 ```
 
 ## Referências
