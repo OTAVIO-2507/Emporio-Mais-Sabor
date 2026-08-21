@@ -9,7 +9,9 @@ Landing page responsiva com tema de restaurante: cardápio, depoimentos e seçõ
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white)
 
-[![Demonstração online](https://img.shields.io/badge/demonstra%C3%A7%C3%A3o-online-2EA44F?style=flat-square)](https://otavio-2507.github.io/Emporio-Mais-Sabor/)
+![Prévia do projeto](src/images/preview.jpg)
+
+**[Ver Projeto](https://otavio-2507.github.io/Emporio-Mais-Sabor/)**
 
 </div>
 
@@ -25,6 +27,16 @@ O Empório Mais Sabor apresenta a estrutura completa de uma landing page comerci
 - Seção de depoimentos de clientes
 - Navegação suave entre as seções da página
 - CSS modular, separado por seção da página
+
+## Decisões de projeto
+
+Algumas escolhas que não são óbvias pelo código:
+
+**O laço de seções interrompe assim que acha a ativa.** O `return false` dentro do `.each` do jQuery é um `break`: encontrada a seção que contém a posição da rolagem, não faz sentido medir as restantes. Numa página de uma dobra só isso é detalhe; com muitas seções, é a diferença entre medir uma e medir todas a cada evento.
+
+**Os depoimentos guardam os comentários em estrutura própria.** `commentsData` mapeia cada pessoa às suas avaliações, e o modal é montado a partir desse objeto em vez de ler o que já está na tela — o que permite mostrar no modal mais avaliações do que a página exibe no cartão resumido.
+
+**Fechar o modal aceita os dois gestos que as pessoas tentam.** O clique é interceptado por delegação e vale tanto no botão de fechar quanto no fundo escurecido, com a verificação de alvo garantindo que clicar dentro do cartão não feche.
 
 ## Tecnologias
 
