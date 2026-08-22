@@ -11,7 +11,8 @@ Landing page responsiva com tema de restaurante: cardápio, depoimentos e seçõ
 
 ![Prévia do projeto](src/images/preview.jpg)
 
-**[Ver Projeto](https://otavio-2507.github.io/Emporio-Mais-Sabor/)**
+[![Ver projeto](https://img.shields.io/badge/Ver_projeto-3642B5?style=for-the-badge&logo=googlechrome&logoColor=white)](https://otavio-2507.github.io/Emporio-Mais-Sabor/)
+[![Código](https://img.shields.io/badge/C%C3%B3digo-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/OTAVIO-2507/Emporio-Mais-Sabor)
 
 </div>
 
