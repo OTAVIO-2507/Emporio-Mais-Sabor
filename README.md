@@ -9,10 +9,12 @@ Landing page responsiva com tema de restaurante: cardápio, depoimentos e seçõ
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white)
 
-![Prévia do projeto](src/images/preview.jpg)
-
 [![Ver projeto](https://img.shields.io/badge/Ver_projeto-3642B5?style=for-the-badge&logo=googlechrome&logoColor=white)](https://otavio-2507.github.io/Emporio-Mais-Sabor/)
 [![Código](https://img.shields.io/badge/C%C3%B3digo-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/OTAVIO-2507/Emporio-Mais-Sabor)
+
+<br>
+
+[![Prévia do projeto](src/images/preview.jpg)](https://otavio-2507.github.io/Emporio-Mais-Sabor/)
 
 </div>
 
